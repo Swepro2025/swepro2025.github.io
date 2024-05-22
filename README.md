@@ -11,6 +11,7 @@ TODO: Create landing pages for: Category, Tags, 404
 ## History
  
 Version 0.1 (2019-04-09) - Creating the homepage and one version of the article page
+Have added more pages.5/23/2024
  
  
 ## License
