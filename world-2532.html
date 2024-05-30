@@ -1,0 +1,364 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="online newspaper">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!--Fonts section-->
+  <!--Use your own fonts here-->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,800|Tinos:400,700&amp;subset=greek" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Magra:400,700" rel="stylesheet">
+  <!--ENDOF Fonts section-->
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+</div>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://">microsoft edge</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+  <!--Top page message-->
+  <section class="bg-hard-light d-none d-md-block">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center p-2 text-muted small">
+		<div class="post-title h6 font-weight-bold">""CMS News platform with CDN Network”</div>
+              </div>
+
+  </section>
+
+
+  <!--Logo section-->
+  <header class="header py-1">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-12 col-lg-3 small">
+          <div class="row no-gutters">
+            <div class="col-6 col-lg-12">
+              <div class="font-weight-bold">
+                </i> <div id="current_date">
+    <script>
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const date = new Date();
+        const dayName = daysOfWeek[date.getDay()];
+        document.getElementById("current_date").innerHTML = `${dayName}, ${date.toLocaleDateString()}`;
+    </script>
+</div></i> 
+              </div>
+            </div>
+            <div class="col-6 col-lg-12">
+              <div class="text-right text-lg-left">
+			  Publisher: News Gate
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-center">
+          <a href="#3">
+            <img class="img-fluid" src="img/logo.png" />
+          </a>
+        </div>
+        <div class="col-12 col-lg-3 text-center text-lg-right">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+ <!--Navigation-->
+<section class="section-navigation mb-4">
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler font-weight-bold bg-dark w-100 text-white rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                MENU
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Us  <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+					<a class="nav-link" href="business.html">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="economy.html">Economy</a>
+						</li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="politics.html">Politics</a>
+                    </li>
+                    <li class="nav-item">
+					<a class="nav-link" href="world.html">World</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                         More</a>
+                        
+                        <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Travel</a>
+                            <a class="dropdown-item" href="#">Food</a>
+                            <a class="dropdown-item" href="#">Cars</a>
+                            <a class="dropdown-item" href="#">Real Estate</a>
+                            <a class="dropdown-item" href="#">Connect</a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" href="#">disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 d-none">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</section>
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article2501</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <article>
+	<body>
+    <div class="article-clean">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="intro">
+                        <h1 class="text-center">Japan, South Korea, China leaders likely to agree on broad cooperation.’</h1>
+                        <p class="text-center"><span class="by">by</span> <a href="#">Elia Bricks</a><span class="date">May 30th, 2024 </span></p><img class="img-fluid" src="img/posts/post-58.jpg"></div>
+                    <div class="text">
+					<p>Japan confirmed with South Korea and China the importance of North Korean denuclearization at a
+					trilateral summit on Monday, Prime Minister Fumio Kishida said, hours after Pyongyang announced a plan to launch a satellite-carrying rocket.</p>
+
+<p>But a joint statement issued after the meeting of the three leaders did not mention their commitment to the 
+"complete denuclearization of the Korean Peninsula," as agreed at the previous summit in December 2019 in the southwestern Chinese city of Chengdu.</p>
+
+<p>At a joint press announcement with South Korean President Yoon Suk Yeol and Chinese Premier Li Qiang following 
+the gathering in Seoul, Kishida said that stability on the Korean Peninsula is in the "common interest" of the three Asian countries.</p>
+
+<p>The statement only said, "We reiterated positions on regional peace and stability, denuclearization of the 
+Korean Peninsula and the abductions issue, respectively. We agree to continue to make positive efforts for the political settlement of the Korean Peninsula issue."</p>
+
+<p>North Korea said Monday it "strongly denounces and rejects" the joint 
+declaration as "a blatant challenge" to the nation's sovereignty and "wanton 
+interference in its internal affairs," according to the official Korean Central News Agency.</p>
+
+<p>The North Korean Foreign Ministry criticized South Korea in a statement carried by KCNA,
+ saying Seoul has brought a "grave security crisis" to the Korean Peninsula "by frantically 
+ strengthening military alliance for aggression with hegemonic forces outside the region," referring to the United States.</p>
+
+
+<p>Japanese Prime Minister Fumio Kishida speaks at a joint press conference with South Korean
+ President Yoon Suk Yeol and Chinese Premier Li Qiang following their talks in Seoul
+ on May 27, 2024. (Pool photo) (Kyodo) ==Kyodo</p>
+<p>The trilateral summit took place with the regional security environment becoming more severe 
+amid nuclear and missile threats from North Korea, which has been bolstering its economic and military ties with China.
+  The trilateral summit took place with the regional security environment becoming more severe
+  amid nuclear and missile threats from North Korea, which has been bolstering its economic and military ties with China.</p>
+
+<p>The Japanese government said earlier Monday that North Korea has notified Tokyo of its plan
+ to launch a satellite-carrying rocket before June 4. The launch might involve the use of ballistic
+ missile technology, a violation of U.N. Security Council resolutions.</p>
+
+<p>At the outset of the trilateral summit, Kishida urged North Korea to cancel its planned satellite
+ launch, with Yoon, the chair of the meeting, saying it would endanger regional and global peace and stability.</p>
+
+<p>Li, who took office in March 2023, did not touch on the issue, saying only that the role of China,
+ Japan and South Korea is "to promote development, boost cooperation in East Asia and safeguard peace
+ and prosperity in the region and the world."</p>
+
+
+<p>South Korean President Yoon Suk Yeol speaks at a joint press conference with Japanese Prime Minister
+ Fumio Kishida and Chinese Premier Li Qiang following their talks in Seoul on May 27, 2024. (Pool photo) (Kyodo) ==Kyodo</p>
+                     
+                        
+						</span></p><img class="img-fluid" src="img/posts/post-57.jpg">
+                            <figcaption>Caption</figcaption>
+                        </figure>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+	
+</body>
+
+</html>
+ <!--Footer-->
+  <footer class="section section-footer bg-dark mb-0">
+    <div class="inside">
+      <div class="pt-5">
+        <div class="container">
+          <div class="footer-logo">
+            <div class="row no-gutters justify-content-center mb-2">
+              <div class="col-5 col-md-5 col-lg-3 col-xl-2">
+                <img class="img-fluid" src="img/logo.svg" />
+              </div>
+            </div>
+            <div class="row no-gutters justify-content-center">
+              <div class="col-12 text-center small">
+              		<div class="post-title h6 font-weight-bold">"Stay Informed, Enter The News Gate”</div>
+                    </div>
+            </div>
+          </div>
+          <div class="footer-menus text-center text-lg-left">
+
+            <div class="row">
+              <div class="col-md-6 col-lg-3 mb-3">
+                <ul class="footer-menu">
+                  <li>
+                    <a href="#3">Who we are</a>
+                  </li>
+                  <li>
+                    <a href="#3">The founder</a>
+                  </li>
+                  <li>
+                    <a href="#3">Terms of Service</a>
+                  </li>
+                  <li>
+                    <a href="#3">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#3">Sitemap</a>
+                  </li>
+                  <li>
+                    <a href="#3">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-3">
+                <ul class="footer-menu">
+                  <li>
+                    <a href="index.html">News</a>
+                  </li>
+                  <li>
+                    <a href="economy.html">Economy</a>
+                  </li>
+                  <li>
+                    <a href="world.html">World</a>
+                  </li>
+                  <li>
+                    <a href="politics.html">Politics</a>
+                  </li>
+                  <li>
+                    <a href="sports.html">Sports</a>
+                  </li>
+                  <li>
+                    <a href="#3">More</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-3">
+                <ul class="footer-menu">
+                  <li>
+                    <a href="#3">Email newsletter</a>
+                  </li>
+                  <li>
+                    <a href="#3">Mobile Applications</a>
+                  </li>
+                  <li>
+                    <a href="#3">Corporate subscriptions</a>
+                  </li>
+                  <li>
+                    <a href="#3">Digital subscriptions</a>
+                  </li>
+                  <li>
+                    <a href="#3">Education rate</a>
+                  </li>
+                  <li>
+                    <a href="#3">Work with us</a>
+                  </li>
+                  <li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end mb-3">
+                <div class="">
+                  <div class="mb-3">
+				  Operated by: QM Media Corporation 
+                   <p>Address: 810 Emerald Street STE 111<p>
+                  <p>San Diego CA USA<p>
+                  Tel: +16199496035
+                  </div>
+                  <div class="">
+				  Email: info@NewsGate.com
+                   
+                  </div>
+                  <div class="">
+                   
+                  </div>
+                  <div class="mb-3">
+                   
+                  </div>
+                  <div class="">
+                    <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-2x fa-youtube-square" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-credits">
+            <div class="row ">
+              <div class="text-center col-md-9 text-md-left">
+                © 2019 | NewsGate
+              </div>
+              <div class="col-md-3 text-center text-md-left">
+                About - Advertisements - Contact
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="js/vendor/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
